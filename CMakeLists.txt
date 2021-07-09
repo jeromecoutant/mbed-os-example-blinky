@@ -10,6 +10,7 @@ set(APP_TARGET mbed-os-example-blinky)
 include(${MBED_PATH}/tools/cmake/app.cmake)
 
 add_subdirectory(${MBED_PATH})
+add_subdirectory(stm32customtargets)
 
 add_executable(${APP_TARGET})
 
